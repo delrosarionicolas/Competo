@@ -1,34 +1,52 @@
 :root {
-    /* COLORS */
-    --woocommerce: #a46497;
-    --wc-green: #7ad03a;
-    --wc-red: #a00;
-    --wc-orange: #ffba00;
-    --wc-blue: #2ea2cc;
-    --wc-primary: #a46497;
-    --wc-primary-text: white;
-    --wc-secondary: #ebe9eb;
-    --wc-secondary-text: #515151;
-    --wc-highlight: #77a464;
-    --wc-highligh-text: white;
-    --wc-content-bg: #fff;
-    --wc-subtext: #767676;
+  /* COLORS */
+  --woocommerce: #a46497;
+  --wc-green: #7ad03a;
+  --wc-red: #a00;
+  --wc-orange: #ffba00;
+  --wc-blue: #2ea2cc;
+  --wc-primary: #a46497;
+  --wc-primary-text: white;
+  --wc-secondary: #ebe9eb;
+  --wc-secondary-text: #515151;
+  --wc-highlight: #77a464;
+  --wc-highligh-text: white;
+  --wc-content-bg: #fff;
+  --wc-subtext: #767676;
 
-    /* FONT FAMILY */
-    --jost: 'Jost', sans-serif;
+  /* FONT FAMILY */
+  --jost: "Jost", sans-serif;
 }
 
 * {
-    box-sizing: border-box;
-    list-style: none;
-    margin: 0%;
-    padding: 0%;
-    text-decoration: none;
-    scrollbar-color: #454a4d #202324;
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  scrollbar-color: #454a4d #202324;
 }
 
 html {
-    font-family: var(--jost);
-    font-size: 62.5%;
-    scroll-behavior: smooth;
+  font-family: var(--jost);
+  /* font-size: 62.5%; */
+  scroll-behavior: smooth;
+}
+
+/* IDS */
+#app-benefits {
+  text-align: center;
+}
+
+/* CLASSES */
+
+.nav-link {
+  padding: 14px;
+  margin-left: 10px;
+  border-radius: 30px;
+  color: var(--wc-highligh-text);
+}
+
+.padded {
+  padding: 80px 0;
 }
