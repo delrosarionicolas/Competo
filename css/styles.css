@@ -2,8 +2,9 @@
   /* COLORS */
   --woocommerce: #a46497;
   --wc-green: #7ad03a;
+  --wc-gray: #1d1e25;
   --wc-red: #a00;
-  --wc-orange: #ffba00;
+  --wc-orange: #eda51d;
   --wc-blue: #2ea2cc;
   --wc-primary: #a46497;
   --wc-primary-text: white;
@@ -40,12 +41,56 @@ html {
 }
 
 /* IDS */
-#app-benefits {
+/* nav-bar */
+#nav-bar {
+  background-color: #101115;
+}
+
+#nav-bar .btn-outline-success {
+  padding: 12px 45px;
+  margin-left: 13px;
+  border-radius: 50px;
+  font-size: 14px;
+  background: #e7e7e8;
+  color: #48445a;
+}
+
+#nav-bar .btn-outline-success:hover {
+  background: var(--wc-content-bg);
+}
+/* nav-bar:complete */
+
+#app-benefits-1 {
+  background-color: var(--background);
+}
+
+#app-benefits-1 .row .col-6 {
+  background: #0b0c10;
+  border-radius: 6px 6px 6px 6px;
+  border: 3px solid #1d2027;
+  height: 288px;
+  margin: 10px;
+  max-width: 470px;
+  padding: 35px;
+}
+
+#app-benefits-1 .row .col-6 div {
+  color: var(--wc-orange);
+  font-size: 26px;
+  line-height: 74px;
+  width: 74px;
+  height: 74px;
+  background: var(--wc-gray);
+  text-align: center;
+  border-radius: 5px;
+}
+
+#app-benefits-2 {
   text-align: center;
   background-color: var(--background);
 }
 
-#app-benefits .row .col-3 div {
+#app-benefits-2 .row .col-3 div {
   height: 62px;
   width: 62px;
   background: var(--wc-content-bg);
@@ -56,17 +101,12 @@ html {
   border-radius: 5px;
 }
 
-#app-benefits h2 {
-  font-size: var(--sm);
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-#app-benefits h3 {
-  color: #DDDDDD;
-  font-size: 20px;
-  font-weight: 600;
-  margin: 20px 0;
+/* NO INTEGRADO - AUn */
+.nav-link {
+  padding: 14px;
+  margin-left: 10px;
+  border-radius: 30px;
+  color: var(--wc-highligh-text);
 }
 
 /* CLASSES */
@@ -79,20 +119,28 @@ html {
   color: var(--wc-subtext);
 }
 
-.nav-link {
-  padding: 14px;
-  margin-left: 10px;
-  border-radius: 30px;
-  color: var(--wc-highligh-text);
-}
-
 .padded {
   padding: 80px 0;
 }
 
+.title {
+  text-align: center;
+  font-size: var(--sm);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 .subtitle {
+  text-align: center;
   font-size: 52px;
   font-weight: 700;
   line-height: 60px;
   padding-bottom: 60px;
+}
+
+.app-benefits h3 {
+  color: #dddddd;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0;
 }
