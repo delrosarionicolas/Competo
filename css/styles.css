@@ -13,7 +13,7 @@
   --wc-highlight: #77a464;
   --wc-highligh-text: white;
   --wc-content-bg: #fff;
-  --wc-subtext: #767676;
+  --wc-subtext: #747987;
   --background: #090a0e;
 
   /* FONT FAMILY */
@@ -37,10 +37,12 @@
 html {
   font-family: var(--jost);
   /* font-size: 62.5%; */
+  /* we arent going to use rem in this project. */
   scroll-behavior: smooth;
 }
 
 /* IDS */
+
 /* nav-bar */
 #nav-bar {
   background-color: #101115;
@@ -60,8 +62,10 @@ html {
 }
 /* nav-bar:complete */
 
+/* app-benefits-1 */
 #app-benefits-1 {
   background-color: var(--background);
+  text-align: center;
 }
 
 #app-benefits-1 .row .col-6 {
@@ -72,6 +76,7 @@ html {
   margin: 10px;
   max-width: 470px;
   padding: 35px;
+  text-align: initial;
 }
 
 #app-benefits-1 .row .col-6 div {
@@ -84,7 +89,9 @@ html {
   text-align: center;
   border-radius: 5px;
 }
+/* app-benefits-1:complete */
 
+/* app-benefits-2 */
 #app-benefits-2 {
   text-align: center;
   background-color: var(--background);
@@ -100,6 +107,37 @@ html {
   line-height: 62px;
   border-radius: 5px;
 }
+/* app-benefits-2:complete */
+
+/* footer */
+#footer {
+  background-color: var(--background);
+}
+
+#footer .row .col-6 h2 {
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+#footer .row .col-1 div {
+  height: 36px;
+  width: 36px;
+  background: #242528;
+  font-size: 15px;
+  line-height: 36px;
+  border-radius: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#footer .row .col-1 div a {
+  color: var(--wc-content-bg);
+}
+/* footer:complete */
+
+/* IDS:complete */
 
 /* NO INTEGRADO - AUn */
 .nav-link {
@@ -124,10 +162,10 @@ html {
 }
 
 .title {
-  text-align: center;
   font-size: var(--sm);
   font-weight: 600;
   text-transform: uppercase;
+  padding: 10px;
 }
 
 .subtitle {
@@ -144,3 +182,5 @@ html {
   font-weight: 600;
   margin: 20px 0;
 }
+
+/* CLASSES:complete */
