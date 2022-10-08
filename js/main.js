@@ -27,15 +27,18 @@ $(function(){
 
     })
 
-    //ASI INTENTAMOS HACER EL HIDE:(
 
-    // $(".title").click(function() {
-    //     if ($("#channel").show == true) {
-    //         $("#channel").hide
-    //     } else {
-    //         $("#channel").show
-    //     }
-    // })
-
+    $("#our-sponsors-title").click(function() {
+        $("#our-sponsors").toggle();
+        })
+    $("#app-benefits-title").click(function() {
+        $("#app-benefits").toggle();
+        })
+    $("#our-tools-title").click(function() {
+        $("#our-tools").toggle();
+        })
+    $("#our-channel-title").click(function() {
+        $("#our-channel").toggle();
+        })
 })
 
