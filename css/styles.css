@@ -113,6 +113,20 @@ th {
 /* header:complete */
 
 /* main */
+#carouselExampleCaptions {
+  position: relative;
+}
+
+#data-clients {
+  position: absolute;
+  top: 5%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+}
+
 #main-content {
   margin-top: 88.5px;
 }
