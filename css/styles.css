@@ -49,6 +49,16 @@ a {
   color: var(--wc-content-bg);
 }
 
+td {
+  text-align: center;
+  color: var(--wc-content-bg);
+}
+
+th {
+  text-align: center;
+
+}
+
 /* IDS */
 /* header */
 

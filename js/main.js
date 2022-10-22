@@ -5,8 +5,6 @@ $(function(){
         $("#menu-main").append('<li class="nav-item">' + 
         ' <a class="nav-link" href="#'+ idsection +'">' + title +' </a>'+  ' </li>');
     })
-
-
     $("#menu-item-form").click(function(){
         fetch("fetch/form.html")
             .then(response => response.text())
@@ -16,7 +14,6 @@ $(function(){
         });   
 
     })
-
     $("#menu-item-partners").click(function(){
         fetch("fetch/partners.html")
             .then(response => response.text())
@@ -24,10 +21,7 @@ $(function(){
                 console.log(data)
                 $("#main-content").html(data);
         });   
-
     })
-
-
     $("#our-sponsors-title").click(function() {
         $("#our-sponsors").toggle();
         })
@@ -40,5 +34,15 @@ $(function(){
     $("#our-channel-title").click(function() {
         $("#our-channel").toggle();
         })
+
+        
+    $("#menu-item-services").click(function(){
+        fetch("fetch/services.html")
+            .then(response => response.text())
+            .then(data => {
+                console.log(data)
+                $("#main-content").html(data);
+        });   
+    }) 
 })
 
