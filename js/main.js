@@ -46,7 +46,7 @@ $(function () {
     })
 
 
-    fetch('http://localhost:3000/clients.php')
+    fetch('https://faas-nyc1-2ef2e6cc.doserverless.co/api/v1/web/fn-63d0eec1-53fa-417b-8052-e630ca4a896b/default/Clients')
         .then(response => response.json())
         .then(data => {
             clientsTable(data)
